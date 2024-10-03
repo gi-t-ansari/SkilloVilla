@@ -1,0 +1,66 @@
+.card-container {
+  height: max-content;
+  width: 862px;
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 60px 42px;
+  box-shadow: 4px 4px 10px #d1d5db;
+}
+
+.card-sub-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.testimonial {
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  margin: 20px 0 30px 0;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+}
+
+.name-container {
+  text-align: right;
+}
+
+.name {
+  font-size: 24px;
+  color: #292929;
+}
+
+.designation {
+  font-size: 20px;
+  color: #666666;
+}
+
+@media screen and (max-width: 431px) {
+  .card-container {
+    width: 392px;
+    padding: 40px 22px;
+  }
+
+  .card-sub-container {
+    flex-direction: column-reverse;
+  }
+
+  .card-footer {
+    margin: 20px 0 30px 0;
+    justify-content: center;
+    flex-direction: column-reverse;
+  }
+
+  .name-container {
+    text-align: center;
+  }
+
+  .testimonial {
+    margin: 0;
+  }
+}
